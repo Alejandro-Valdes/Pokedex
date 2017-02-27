@@ -1,0 +1,25 @@
+.border(@color, @style, @width, @full, @radius: 0px) when (@full = true) {
+	border: @color @style @width;
+	.round-borders(@radius);
+}
+
+.border(@color, @style, @width, @full, @radius: 0px) when (@full = false) {
+	border-bottom: @color @style @width;
+	.round-borders(@radius);
+}
+
+.round-borders(@radius: 0px){
+	border-radius: @radius;
+ 	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+}
+
+.type(@color){
+	background-color: @color;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 4px;
+	padding: 0px 1px;
+	.round-borders(4px);
+}

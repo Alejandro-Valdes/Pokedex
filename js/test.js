@@ -1,0 +1,3 @@
+var c;
+
+foo.far();
