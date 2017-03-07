@@ -19,11 +19,17 @@
   '../vendor/bootstrap-sass/assets/stylesheets/_bootstrap';
 
 // 3. Base stuff
+@import
+  'abstracts/fonts';
 
 // 4. Layout-related sections
 
 // 5. Components
+@import
+  'abstracts/types';
 
 // 6. Page-specific styles
 
 // 7. Themes
+@import
+  'abstracts/pokedex';

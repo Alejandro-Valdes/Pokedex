@@ -1,0 +1,27 @@
+{
+  "name": "pokedexchallenge",
+  "description": "A simple angular app to mock the functionality of a Pokedex",
+  "main": "index.js",
+  "authors": [
+    "Alejandro Valdes"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "pokemon"
+  ],
+  "homepage": "https://github.com/Alejandro-Valdes/Pokedex",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "~1.5.8",
+    "bootstrap-sass": "^3.3.7"
+  }
+}

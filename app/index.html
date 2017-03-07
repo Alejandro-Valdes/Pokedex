@@ -3,15 +3,135 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>CodeChallenge-Skeleton</title>
+        <title>POKEDEX</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- stylesheet files -->
         <link rel="stylesheet" href="./vendor/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="./styles/app.css">
+        <link rel="stylesheet" href="./styles/icon/flaticon.css">
     </head>
     <body>
         <!-- javascript files -->
+        <div class="content">
+        <section class="description">
+            <div class="main-section-title">
+                <i class="fa fa-chevron-left"></i>
+                <h3>Description</h3>
+            </div>
+            <div class="row description-row">
+                <div class="main-img col-xs-5">
+                    <img class="img-responsive" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="">
+                </div>
+                <div class="main-description col-xs-7">
+                    <div class="row">
+                        <div class="name-container col-xs-7">
+                            <span class="pokemon-number">#001</span>
+                            <span class="pokemon-name">Bulbasaur</span>
+                        </div>
+                        <div class="icon-container col-xs-5">
+                            <span class="pokeball icon active flaticon-empty-plate"></span>
+                            <span class="fav icon active flaticon-favorite"></span>
+                        </div>
+                    </div>
+                    <div class="pokemon-info">
+                        <p class="">0.7m, 6.9kg</p>
+                        <p>Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun´s rays, the seed grows progressively larger.</p>
+                    </div>
+                    <div class="type">
+                        <div class="col-xs-3 type grass-type">Grass</div>
+                        <div class="col-xs-3 type poison-type">Poison</div>
+                        <div class="col-xs-3 type bug-type">Bug</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="information">
+            <div class="section-title">
+                <p>General Information</p>
+            </div>
+            <div class="row general-info">
+                <div class="col-xs-6 tag">
+                    <p>Hidden abilities</p>
+                </div>
+                <div class="col-xs-6 value">
+                    <p>Clorophyll</p>
+                </div>
+            </div>
+            <div class="row general-info">
+                <div class="col-xs-6 tag">
+                    <p>Location</p>
+                </div>
+                <div class="col-xs-6 value">
+                    <p>Lumiose City</p>
+                </div>
+            </div>
+        </section>
+        <section class="evolution">
+            <div class="section-title">
+                <p>Evolution</p>
+            </div>
+            <div class="evo-row row">
+                <div class="col-xs-3 evo-img">
+                    <img class="img-responsive" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Bulbasaur">
+                </div>
+                <div class="col-xs-6 evo-info">
+                    <div class="name">
+                        <p>Bulbasaur</p>
+                    </div>
+                    <div class="type">
+                        <div class="col-xs-3 type grass-type">Grass</div>
+                        <div class="col-xs-3 type poison-type">Poison</div>
+                        <div class="col-xs-3 type bug-type">Bug</div>
+
+                    </div>
+                </div>
+                <div class="col-xs-3 evo-number">
+                    <p>#001</p>
+                </div>
+            </div>
+            <div class="evo-row row">
+                <div class="col-xs-3 evo-img">
+                    <img class="img-responsive" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png" alt="Bulbasaur">
+                </div>
+                <div class="col-xs-6 evo-info">
+                    <div class="name">
+                        <p>Ivysaur <span class="level">LV. 16</span></p>
+                    </div>
+                    <div class="type">
+                        <div class="col-xs-3 type grass-type">Grass</div>
+                        <div class="col-xs-3 type poison-type">Poison</div>
+                        <div class="col-xs-3 type bug-type">Bug</div>
+                        
+                    </div>
+                </div>
+                <div class="col-xs-3 evo-number">
+                    <p>#002</p>
+                </div>
+            </div>
+            <div class="evo-row row">
+                <div class="col-xs-3 evo-img">
+                    <img class="img-responsive" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png" alt="Bulbasaur">
+                </div>
+                <div class="col-xs-6 evo-info">
+                    <div class="name">
+                        <p>Venusaur <span class="level">LV. 32</span></p>
+                    </div>
+                    <div class="type">
+                        <div class="col-xs-3 type grass-type">Grass</div>
+                        <div class="col-xs-3 type poison-type">Poison</div>
+                        <div class="col-xs-3 type bug-type">Bug</div>
+                        
+                    </div>
+                </div>
+                <div class="col-xs-3 evo-number">
+                    <p>#003</p>
+                </div>
+            </div>
+        </section>
+    </div>
+        
+        <script src="https://use.fontawesome.com/86c3415782.js"></script>
         <script src="./vendor/jquery/dist/jquery.min.js"></script>
         <script src="./vendor/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="./vendor/angular/angular.min.js"></script>

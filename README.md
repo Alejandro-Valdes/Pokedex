@@ -31,32 +31,31 @@ application.
 
 Gather all the challenge requirements here.
 
-* Use Angular.js as JavaScript Client MV*
-* Use Less preprocessor to create the CSS
-* Use Yeoman to create the application scaffold
-* Use Gulp as JavaScript task runner
-* Use Bower for dependency management
-* Use Bootstrap 3.x.x as a UI Framework (WARNING: It’s not allow to use Angular Materials, Angular UI, Bootstrap UI or any other UI framework that has built-in directives)
-* Use Git and GitHub for version control
-* Use Object-Oriented JavaScript (ECMAScript 5.1 standard. See ECMA-262)
-* Use Google Chrome browser (for development and testing)
-* Create at least once the following components:
-..* Directives
-..* Controllers
-..* Services
-..* Modules
-..* Scope
-..* Filter
-* Test code via Unit Testing
-* All tests must pass (no failures)
-* Have a 40% code coverage, at least.
-* Test end-to-end functionality (user stories) with Protractor
-..* All tests must pass (no failures)
-* Use the Pokéapi v2 public API to obtain the information about the Pokémon: http://pokeapi.co
-* The web application and data should be available offline
-* Use Local Storage for:
-..* Battle Box
-..* Caught list
+- [ ] Use Angular.js as JavaScript Client MV*
+- [x] Use Less preprocessor to create the CSS
+- [x] Use Yeoman to create the application scaffold
+- [x] Use Gulp as JavaScript task runner
+- [x] Use Bower for dependency management
+- [ ] Use Bootstrap 3.x.x as a UI Framework (WARNING: It’s not allow to use Angular Materials, Angular UI, Bootstrap UI or any other UI framework that has built-in directives)
+- [x] Use Git and GitHub for version control
+- [ ] Use Object-Oriented JavaScript (ECMAScript 5.1 standard. See ECMA-262)
+- [ ] Create at least once the following components:
+	* Directives
+	* Controllers
+	* Services
+	* Modules
+	* Scope
+	* Filter
+- [ ] Test code via Unit Testing
+- [ ] All tests must pass (no failures)
+- [ ] Have a 40% code coverage, at least.
+- [ ] Test end-to-end functionality (user stories) with Protractor
+	* All tests must pass (no failures)
+- [ ] Use the Pokéapi v2 public API to obtain the information about the Pokémon: http://pokeapi.co
+- [ ] The web application and data should be available offline
+- [ ] Use Local Storage for:
+	* Battle Box
+	* Caught list
 
 ## Highlights
 

@@ -2,3 +2,31 @@
 /* ==========================================================================
    Author's custom macros
    ========================================================================== */
+
+@mixin border($color, $style, $width, $full, $radius: 0px) {
+	@if $full{
+		border: $color, $style, $width;
+	}	
+	@else{
+		border-bottom: $color $style $width;
+	}
+
+	@include round-borders($radius);
+}
+
+@mixin round-borders($radius: 0px){
+	-webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin type($color){
+	background-color: $color;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 4px;
+	padding: 0px 1px;
+	@include round-borders(4px);
+}

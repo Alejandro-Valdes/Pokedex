@@ -1,0 +1,11 @@
+.bug-type{
+	@include type($s-bug);
+}
+
+.poison-type{
+	@include type($s-poison);
+}
+
+.grass-type{
+	@include type($s-grass);
+}
