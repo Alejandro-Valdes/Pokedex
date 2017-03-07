@@ -1,50 +1,68 @@
-# CodeChallenge1-Skeleton
+# POKEDEX
 
-Add your challenge description here.
+
 
 ## Primary objective
 
-Describe the primary objective here.
+*Create a responsive SPA featuring a Pokédex* that will help the Pokémon trainers to know the information about the Pokémon creatures found in the Kanto region.
 
-**Example**: The primary objective of this challenge is to *"summary"*, so the user can *"description"*.
-
-## Secondary objectives (optional)
-
-Describe the secondary objective(s) here. Here's an example:
+## Secondary objectives 
 
 The secondary objectives of this challenge are:
 
-* Use a spcific datatype (json, xml, etc).
-* Use controllers in AngularJS.
-* Understand the filter process.
-* .
-* ...
+*Create a client side web application using Angular.js, one of the major JavaScript MV* frameworks.
+*Apply the Test Driven Development process.
+*Understand and follow the best practices used for large-scale JavaScript application development.
+*Understand and query RESTful APIs from a client side
+application.
+*Understand and apply the base DevOps process required for web developers to complete their tasks and effectively communicate with DevOps resources.
 
 ## Workstation
 
-Here you can list/describe your workstation used for this challenge. Here's an example:
-
 * Node.js
 * Git
-* An IDE or text editor of your preference (Sublime text, Atom, etc)
+* Yeoman, Bower and Gulp
+* Karma, Jasmine and Protractor
+* Sublime
 * Google Chrome
+
 
 ## Requirements
 
 Gather all the challenge requirements here.
 
-* Req x
-* Req y
-* .
-* ...
+* Use Angular.js as JavaScript Client MV*
+* Use Less preprocessor to create the CSS
+* Use Yeoman to create the application scaffold
+* Use Gulp as JavaScript task runner
+* Use Bower for dependency management
+* Use Bootstrap 3.x.x as a UI Framework (WARNING: It’s not allow to use Angular Materials, Angular UI, Bootstrap UI or any other UI framework that has built-in directives)
+* Use Git and GitHub for version control
+* Use Object-Oriented JavaScript (ECMAScript 5.1 standard. See ECMA-262)
+* Use Google Chrome browser (for development and testing)
+* Create at least once the following components:
+..* Directives
+..* Controllers
+..* Services
+..* Modules
+..* Scope
+..* Filter
+* Test code via Unit Testing
+* All tests must pass (no failures)
+* Have a 40% code coverage, at least.
+* Test end-to-end functionality (user stories) with Protractor
+..* All tests must pass (no failures)
+* Use the Pokéapi v2 public API to obtain the information about the Pokémon: http://pokeapi.co
+* The web application and data should be available offline
+* Use Local Storage for:
+..* Battle Box
+..* Caught list
 
-## Highlights (optional)
+## Highlights
 
-Highlight the features that you create in addition of the requirements.
+Coming soon.
 
 ## Installation
-
-Describe here the process (step by step) to successfully install your application.
 
 Compile the styles using sass:
 
