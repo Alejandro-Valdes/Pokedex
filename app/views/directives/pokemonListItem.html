@@ -1,13 +1,17 @@
 <div class="container">
-	<div class="row">
+	<div class="row list-row">
 		<div class="col-xs-3">
-			<img class="list-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/142.png" alt="">
+			<img class="list-img" ng-src="{{ pokemon.img }}" alt="">
 		</div>
 		<div class="list-info col-xs-6">
 			<p>{{pokemon.name}}</p>
+			<div class="type">
+                <div class="col-xs-4 type grass-type">Grass</div>
+                <div class="col-xs-4 type poison-type">Poison</div>
+            </div>
 		</div>
 		<div class="list-icons col-xs-3">
-			<p class="number">#142</p>
+			<p class="number">#{{ pokemon.number }}</p>
 			<div class="icons">
 	            <span class="pokeball icon active flaticon-empty-plate"></span>
 	            <span class="fav icon active flaticon-favorite"></span>
