@@ -4,14 +4,14 @@
 			<img class="list-img" ng-src="{{ pokemon.img }}" alt="">
 		</div>
 		<div class="list-info col-xs-6">
-			<p>{{pokemon.name}}</p>
+			<p>{{ pokemon.name | capitalize}}</p>
 			<div class="type">
                 <div class="col-xs-4 type grass-type">Grass</div>
                 <div class="col-xs-4 type poison-type">Poison</div>
             </div>
 		</div>
 		<div class="list-icons col-xs-3">
-			<p class="number">#{{ pokemon.number }}</p>
+			<p class="number">#{{ pokemon.number | leadingZeros:3 }}</p>
 			<div class="icons">
 	            <span class="pokeball icon active flaticon-empty-plate"></span>
 	            <span class="fav icon active flaticon-favorite"></span>

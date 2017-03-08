@@ -1,10 +1,6 @@
 (function(){
 	'use strict';
 
-	String.prototype.capitalize = function() {
-	    return this.charAt(0).toUpperCase() + this.slice(1);
-	}
-
 	angular
 		.module('pkApp.pokemonlist', [])
 		.controller('Pokemonlist', ['$scope', 'Pokemon', function ($scope, Pokemon){
@@ -25,7 +21,7 @@
 					
 					pokemon = {};
 					pokemonNum = i+1;
-					pokemon.name = results[i].name.capitalize();
+					pokemon.name = results[i].name;
 					pokemon.img = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/' + pokemonNum + '.png'
 					pokemon.number = pokemonNum;
 					pokemonList.push(pokemon);

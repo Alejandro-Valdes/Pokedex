@@ -40,22 +40,22 @@ Gather all the challenge requirements here.
 - [x] Use Git and GitHub for version control
 - [ ] Use Object-Oriented JavaScript (ECMAScript 5.1 standard. See ECMA-262)
 - [ ] Create at least once the following components:
-	* Directives
-	* Controllers
-	* Services
-	* Modules
-	* Scope
-	* Filter
+	- [x] Directives
+	- [x] Controllers
+	- [ ] Services
+	- [x] Modules
+	- [ ] Scope
+	- [x] Filter
 - [ ] Test code via Unit Testing
 - [ ] All tests must pass (no failures)
 - [ ] Have a 40% code coverage, at least.
 - [ ] Test end-to-end functionality (user stories) with Protractor
-	* All tests must pass (no failures)
+	- [ ] All tests must pass (no failures)
 - [ ] Use the Pokéapi v2 public API to obtain the information about the Pokémon: http://pokeapi.co
 - [ ] The web application and data should be available offline
 - [ ] Use Local Storage for:
-	* Battle Box
-	* Caught list
+	- [ ] Battle Box
+	- [ ] Caught list
 
 ## Highlights
 
