@@ -5967,3 +5967,14 @@ body {
 
 .type > div:first-child {
   margin-left: 0; }
+
+.list-img {
+  width: 80%;
+  display: block;
+  margin: 0px auto; }
+
+.list-info {
+  padding: 0; }
+
+.list-icons .number, .list-icons .icons {
+  text-align: right; }

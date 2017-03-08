@@ -131,3 +131,20 @@
 .type > div:first-child{
 	margin-left: 0;
 }
+
+//LIST STYLES
+.list-img{
+	width: 80%;
+	display: block;
+	margin: 0px auto;
+}
+
+.list-info{
+	padding: 0;
+}
+
+.list-icons{
+	.number, .icons{
+		text-align: right;
+	}
+}

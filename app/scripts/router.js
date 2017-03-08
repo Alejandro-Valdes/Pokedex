@@ -4,13 +4,19 @@
 		.config(['$routeProvider', function($routeProvider){
 			$routeProvider
 			.when('/', {
-				templateUrl : '/scripts/components/pokemonlist/pokemonlist.html'			})
+				templateUrl : '/views/pokemonlist.html',
+				controller : 'Pokemonlist'
+			})
 			.when('/pokemon/:id', {
-				templateUrl : '/scripts/components/description/description.html'			})
+				templateUrl : '/views/description.html',
+				controller : 'Description'
+			})
 			.when('/caught', {
-				templateUrl : '/scripts/components/caught/caught.html'			})
+				templateUrl : '/views/caught.html',
+			})
 			.when('/fightbox', {
-				templateUrl : '/scripts/components/fightbox/fightbox.html'			})
+				templateUrl : '/views/fightbox.html',
+			})
 			.otherwise({
 				redirectTo : '/'
 			});

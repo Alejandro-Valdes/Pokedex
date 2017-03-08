@@ -11,8 +11,8 @@
             <div class="main-description col-xs-7">
                 <div class="row">
                     <div class="name-container col-xs-7">
-                        <span class="pokemon-number">#001</span>
-                        <span class="pokemon-name">Bulbasaur</span>
+                        <span class="pokemon-number">#{{ pokemon.number }}</span>
+                        <span class="pokemon-name">{{ pokemon.name }}</span>
                     </div>
                     <div class="icon-container col-xs-5">
                         <span class="pokeball icon active flaticon-empty-plate"></span>
@@ -21,7 +21,7 @@
                 </div>
                 <div class="pokemon-info">
                     <p class="">0.7m, 6.9kg</p>
-                    <p>Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun´s rays, the seed grows progressively larger.</p>
+                    <p>{{ pokemon.description }}</p>
                 </div>
                 <div class="type">
                     <div class="col-xs-3 type grass-type">Grass</div>

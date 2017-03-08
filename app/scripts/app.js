@@ -5,6 +5,6 @@
 	'use strict';
 	
 	angular
-	.module('pkApp', ['ngRoute']);
+	.module('pkApp', ['ngRoute', 'pkApp.description', 'pkApp.pokemonlist']);
 	
 })();
