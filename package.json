@@ -7,12 +7,13 @@
     "test": "tests"
   },
   "dependencies": {
+    "angular-route": "^1.6.2",
     "express": "^4.15.2",
     "gulp": "^3.9.1",
     "gulp-jshint": "^2.0.4",
-    "gulp-util": "^3.0.8",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11",
     "jshint": "^2.9.4",
     "node-base64-image": "^1.0.3",

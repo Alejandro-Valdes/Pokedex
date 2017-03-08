@@ -5907,7 +5907,6 @@ body {
   align-items: center; }
   .description .description-row .main-img {
     padding: 0;
-    padding-left: 4px;
     display: flex; }
     .description .description-row .main-img img {
       height: 200%;

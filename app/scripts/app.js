@@ -1,4 +1,10 @@
 /**
  * CodeChallenge Main Class
  */
-angular.module('pkApp', []);
+(function(){
+	'use strict';
+	
+	angular
+	.module('pkApp', ['ngRoute']);
+	
+})();
