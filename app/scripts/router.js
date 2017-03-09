@@ -1,7 +1,7 @@
 (function(){
 	angular
 		.module('pkApp')
-		.config(['$routeProvider', function($routeProvider){
+		.config(['$routeProvider', '$locationProvider' , function($routeProvider, $locationProvider){
 			$routeProvider
 			.when('/', {
 				templateUrl : '/views/pokemonlist.html',
@@ -20,6 +20,7 @@
 			.otherwise({
 				redirectTo : '/'
 			});
+			$locationProvider.html5Mode(true);
 		}]);
 })();
 
