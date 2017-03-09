@@ -10,10 +10,8 @@
 
 			var pokemonList = [];
 
-			Pokemon.all().success(function(data){
-				var results = data.results; 
-
-				console.log(results);
+			Pokemon.all().then(function(obj){
+				var results = obj.data.results; 
 				var pokemon = {};
 				var pokemonNum = 0;
 
