@@ -3,10 +3,16 @@
 
 	angular
 		.module('pkApp.pokemonlist', [])
-		.controller('Pokemonlist', ['$scope', 'Pokemon', function ($scope, Pokemon){
-			var self = this;
+		.controller('Pokemonlist', pokemonlist);
 
+		 /* @ngInject */
+		function pokemonlist ($scope, Pokemon){
+			var self = this;
 			console.log('Pokemonlist controller');
+			$scope.pokemons =  getPokemons(Pokemon);
+		}
+
+		function getPokemons(Pokemon){
 
 			var pokemonList = [];
 
@@ -16,7 +22,6 @@
 				var pokemonNum = 0;
 
 				for(var i = 0; i < results.length; i++){
-					
 					pokemon = {};
 					pokemonNum = i+1;
 					pokemon.name = results[i].name;
@@ -24,9 +29,7 @@
 					pokemon.number = pokemonNum;
 					pokemonList.push(pokemon);
 				}
-
-				$scope.pokemons = pokemonList;
 			});
-
-		}]);
+			return pokemonList;
+		}
 })();
