@@ -16,7 +16,7 @@
                     number = '0'+number;
                 }
 
-                return number;
+                return '#' + number;
             };
         });
 })();

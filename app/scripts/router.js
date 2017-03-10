@@ -13,9 +13,11 @@
 			})
 			.when('/caught', {
 				templateUrl : '/views/caught.html',
+				controller : 'CaughtController'
 			})
 			.when('/fightbox', {
 				templateUrl : '/views/fightbox.html',
+				controller : 'BattleController'
 			})
 			.otherwise({
 				redirectTo : '/'

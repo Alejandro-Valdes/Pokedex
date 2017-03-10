@@ -1,11 +1,54 @@
 .bug-type{
 	@include type($s-bug);
 }
-
 .poison-type{
 	@include type($s-poison);
 }
-
 .grass-type{
 	@include type($s-grass);
+}
+.psychic-type{
+	@include type($s-psychic);
+}
+.fighting-type{
+	@include type($s-fighting);
+}
+.rock-type{
+	@include type($s-rock);
+}
+.normal-type{
+	@include type($s-normal);
+}
+.electric-type{
+	@include type($s-electric);
+}
+.ground-type{
+	@include type($s-ground);
+}
+.water-type{
+	@include type($s-water);
+}
+.steel-type{
+	@include type($s-steel);
+}
+.ice-type{
+	@include type($s-ice);
+}
+.fire-type{
+	@include type($s-fire);
+}
+.ghost-type{
+	@include type($s-ghost);
+}
+.fairy-type{
+	@include type($s-fairy);
+}
+.flying-type{
+	@include type($s-flying);
+}
+.dragon-type{
+	@include type($s-dragon);
+}
+.steel-type{
+	@include type($s-steel);
 }
